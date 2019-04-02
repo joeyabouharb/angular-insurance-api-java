@@ -59,6 +59,6 @@ class ClaimController{
       claim.setStatus("In Progress");
       return claimRepository.save(claim);
   }
-  
+
 
 }
