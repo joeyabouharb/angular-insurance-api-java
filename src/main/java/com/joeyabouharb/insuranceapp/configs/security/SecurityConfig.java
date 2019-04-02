@@ -84,7 +84,7 @@ public CorsConfigurationSource corsConfigurationSource() {
     final CorsConfiguration configuration = new CorsConfiguration();
     configuration.addAllowedOrigin("https://claim-app-angular.herokuapp.com/");
     List<String> methods = new ArrayList<String>(Arrays.asList("HEAD",
-    "GET", "POST", "PUT", "DELETE", "PATCH"));
+    "GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
     configuration.setAllowedMethods(methods);
     // setAllowCredentials(true) is important, otherwise:
     // The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'.
