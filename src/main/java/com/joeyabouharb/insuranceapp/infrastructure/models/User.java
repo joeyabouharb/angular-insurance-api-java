@@ -37,9 +37,6 @@ public class User {
     this.password = password;
 }
 
-public User(){
-  
-}
   /**
    * @return the id
    */
