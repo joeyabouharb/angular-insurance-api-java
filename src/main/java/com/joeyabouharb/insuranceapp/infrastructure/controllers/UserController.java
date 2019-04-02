@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequestMapping(value = "/api/user")
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "https://claim-app-angular.herokuapp.com/")
 public class UserController {
 
   @Autowired

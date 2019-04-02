@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/api/claim")
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "https://claim-app-angular.herokuapp.com/")
 class ClaimController{
 
   @Autowired
