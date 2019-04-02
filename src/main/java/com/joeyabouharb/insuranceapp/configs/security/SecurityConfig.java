@@ -82,7 +82,7 @@ protected void configure(HttpSecurity http) throws Exception {
 @Bean
 public CorsConfigurationSource corsConfigurationSource() {
     final CorsConfiguration configuration = new CorsConfiguration();
-    configuration.addAllowedOrigin("http://localhost:4200");
+    configuration.addAllowedOrigin("https://claim-app-angular.herokuapp.com/");
     List<String> methods = new ArrayList<String>(Arrays.asList("HEAD",
     "GET", "POST", "PUT", "DELETE", "PATCH"));
     configuration.setAllowedMethods(methods);
