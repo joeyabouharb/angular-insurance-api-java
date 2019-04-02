@@ -96,6 +96,7 @@ public CorsConfigurationSource corsConfigurationSource() {
        "Cache-Control",
         "Content-Type",
         "Access-Control-Request-Headers",
+        "Access-Control-Allow-Origin",
         "Access-Control-Request-Method",
         "Origin",
         "Referrer",
