@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 public interface UserRepository extends JpaRepository<User, Long> {
    Optional<User> findByUsernameOrEmail(String identifier, String identifier2);
 
+   Optional<User> findByUsername(String username);
+   
    boolean existsByUsername(String username);
 
    boolean existsByEmail(String email);
